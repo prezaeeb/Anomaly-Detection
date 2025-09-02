@@ -22,3 +22,6 @@ In the transformation phase, a multi-step data preprocessing pipeline is execute
     - **Transforming non-numerical to numerical** features unsing **one-hot-encoding** in **Pandas**
     - **Standardization**: By standardizing the dataset, we ensure that the data fed into the models is of high quality and integrity, which is critical for achieving reliable results.
 
+<h3>Load: Traning the Anomaly Model</h3>
+
+To identify outliers and anomalies, I applied three key models: **IsolationForest**, **DBSCAN**, and **One-Class SVM**. Each model was trained on the cleaned and transformed data from the previous section to evaluate its performance in outlier detection.
