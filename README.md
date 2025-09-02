@@ -19,5 +19,5 @@ In the transformation phase, a multi-step data preprocessing pipeline is execute
 - **Data Cleaning:**
     - **Exploration**: My data exploration begins with a preliminary inspection of the dataset. I use the **Pandas .info()** method to quickly identify key characteristics like **data types**, **the number of non-null values**, and **overall memory consumption**, which informs the subsequent data cleaning and transformation steps.
  
-    - 
+    - **Transforming non-numerical to numerical** features unsing **one-hot-encoding** in **Pandas**
 
