@@ -13,7 +13,7 @@ My project follows a standard data pipeline workflow, which can be mapped to the
 
 The data in imported from a **CSV** file to a **Pandas Dataframe**.
 
-<h3>Tranform</h3>
+<h3>Tranform: Pre-Processing</h3>
 
 In the transformation phase, a multi-step data preprocessing pipeline is executed. This process starts with a thorough **data cleaning** step to handle missing values and correct invalid entries. This ensures the data meets the quality standards necessary for training accurate and reliable machine learning models.
 - **Data Cleaning:**
